@@ -1,8 +1,50 @@
 /*General Classes*/
-.headings{
+h1{
 	font-family:Georgia, 'Times New Roman', Times, serif;
+	float:left;
+	background-color: teal;
+	border-color: #cccccc;
 }
 
-.writings{
+body{
+	background-image: url("../images/rockywall.png");
+	float:
+}
+
+main, h2{
 	font-family: Arial, Helvetica, sans-serif;
+	background-color:#ffffff;
+	border-color:#dddddd;
+}
+
+h2{
+	float:right;
+}
+
+main{
+	margin:30px;
+}
+
+footer{
+	background-color:#666666;
+	clear:both;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+  }  
+
+/*Profile Page*/
+#profilePic{
+	clear:left;
+	float:left;
+	height:200px;
+	margin-left:30px;
+}
+
+header{
+	clear:both;
+	background-color: #ffffff;
 }
