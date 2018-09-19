@@ -34,26 +34,28 @@ p{
 		padding:15px 20px 0px 20px;
 	}
 
-	h3{
+	a{
 		background-color:#ffffff;
 		font-family: Arial, Helvetica, sans-serif;
 		color: #666666;
-		font-size:15px;
+		font-size:18px;
+		font-weight:500;
 		float:right;
 		padding-left: 10px;
 		padding-right: 10px;
 		margin-top:20px;
+		text-decoration:none;
 	}
 
 	#contact, #portfolio, #about,{
 		padding: 20px 10px 0px 10px;
 	}
-	#contact, #portfolio{
+	#about, #portfolio{
 		border-right-style:solid;
 		border-color:#666666;
 		border-width:1px;
 	}
-	#about{
+	#contact{
 		margin-right:10px;
 	}
 
@@ -107,7 +109,10 @@ footer{
 
 .bio{
 	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font: color #666666;
 	margin:40px;
+	line-height:21px;
 }
 
 /*Portfolio Page*/
