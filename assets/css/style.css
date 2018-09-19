@@ -3,12 +3,8 @@ body{
 	background-image: url("../images/rockywall.png");
 }
 
-.wrapper{
-	height:100vh;
-	width:100%;
-	margin:0;
-	padding:0;
-	position:relative;
+p{
+	margin-bottom:20px; 
 }
 
 /*Header*/
@@ -49,7 +45,7 @@ body{
 		margin-top:20px;
 	}
 
-	 #contact, #portfolio, #about,{
+	#contact, #portfolio, #about,{
 		padding: 20px 10px 0px 10px;
 	}
 	#contact, #portfolio{
@@ -60,12 +56,14 @@ body{
 	#about{
 		margin-right:10px;
 	}
-/*Body*/
 
-
+/*Main Sections*/
 	main{
+		border-style:solid;
+		border-width:2px;
 		background-color:#ffffff;
 		border-color:#dddddd; 
+		border-radius:10px;
 		width:960px;
 		margin-top:50px;
 		margin-left:auto;
@@ -73,7 +71,8 @@ body{
 		margin-bottom:100px;
 		}
 
-		h2{	font-family: Arial, Helvetica, sans-serif;
+		h2{	clear:both;
+			font-family: Arial, Helvetica, sans-serif;
 			font-size:25px;
 			background-color:#ffffff;
 			border-color:#4aaaa5;
@@ -85,33 +84,31 @@ body{
 			width:860px;
 		}	
 
-		#profilePic{
-			float:left;
-			height:200px;
-			margin:0px 40px 20px 40px; 	
-		}
+/*Footer*/
+footer{
+	background-color:#666666;
+	width: 100%;
+	color:#ffffff;
+	text-align:center;
+	border-top-style:solid;
+	border-width:3px;
+	border-color: #4aaaa5;
+	position:fixed;
+	bottom:0;
+	padding-top:20px;
+}
 
-		.bio{
-			font-family: Arial, Helvetica, sans-serif;
-			margin:40px;
-		}
+/*Profile Page*/
+#profilePic{
+	float:left;
+	height:200px;
+	margin:0px 40px 20px 40px; 	
+}
 
-		p{
-			margin-bottom:20px; 
-		}
-
-	footer{
-		background-color:#666666;
-		width: 100%;
-		color:#ffffff;
-		text-align:center;
-		border-top-style:solid;
-		border-width:3px;
-		border-color: #4aaaa5;
-		position:fixed;
-		bottom:0;
-		padding-top:20px;
-	}
+.bio{
+	font-family: Arial, Helvetica, sans-serif;
+	margin:40px;
+}
 
 /*Portfolio Page*/
 .portfoliobox{
@@ -121,9 +118,13 @@ body{
 	margin:20px 0px 20px 20px;
 	position:relative;
 }
+
+	.portfolioPic, .picLabel{
+		width: 150px;
+	}
+
 	.portfolioPic{
-		height: 150px; 
-		width:150px;
+
 		margin-left:50px;
 		margin-bottom:40px;
 	}
@@ -134,12 +135,62 @@ body{
 		color:white;
 		text-align:center;
 		height: 30px;
-		width:150px;
 		background-color:#4aaaa5;
 		padding-top:10px;
 		bottom:60px;
 		left:50px;
 		position:absolute;
+	}
+
+/*Contact Page*/
+.allforms{
+	margin:60px;
+}
+
+	.infopiece, .userinfo, #country, #subject{
+		float:left;
+		clear:both;
+		width:840px;
+	}
+
+	.infopiece{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color: #666666;
+		margin:10px 0px 7px 0px;
+		font-weight:600;
+	}
+
+	.userinfo{
+		height:18px;
+		text-align:middle;
+		padding:none;
+	}
+
+	.userinfo, #subjec{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#666666;
+		margin-bottom:15px;
+		border-radius:3px;
+		border-style:solid;
+		border-color:#666666;
+		border-width:thin;
+	}
+
+	#finalbutton{
+		float:left;
+		clear:both;	
+		margin-bottom:40px;
+		margin-top:10px;
+		background-color:#4aaaa5;
+		color:white;
+		height:40px;
+		width:90px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+		text-align:middle;
+		border-style:none;
 	}
 
 /*Clearfix Base*/
