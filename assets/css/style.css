@@ -8,32 +8,32 @@ p{
 }
 
 /*Header*/
-	header{
-		clear:both;
-		background-color: #ffffff;
-		height:60px;
-		border-bottom-style:solid;
-		border-color:#cccccc;
-		border-width:10px;
-		margin:0;
-		padding:0;
-		width:100%;
-		top:0px;
+header{
+	clear:both;
+	background-color: #ffffff;
+	height:60px;
+	border-bottom-style:solid;
+	border-color:#cccccc;
+	border-width:10px;
+	margin:0;
+	padding:0;
+	width:100%;
+	top:0px;
 }
+	
 
-	h1{
-		font-family:Georgia, 'Times New Roman', Times, serif;
-		float:left;
-		background-color: #4aaaa5;
-		border-color: #cccccc;
-		margin-left:50px;
-		margin-top:0px;
-		font-size:25px;
-		color:#ffffff;
-		height:45px;
-		padding:15px 20px 0px 20px;
-	}
-
+h1{
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	float:left;
+	background-color: #4aaaa5;
+	border-color: #cccccc;
+	margin-left:50px;
+	margin-top:0px;
+	font-size:25px;
+	color:#ffffff;
+	height:45px;
+	padding:15px 20px 0px 20px;
+}
 	.headerlink{
 		background-color:#ffffff;
 		font-family: Arial, Helvetica, sans-serif;
@@ -45,6 +45,10 @@ p{
 		padding-right: 10px;
 		margin-top:20px;
 		text-decoration:none;
+	}
+
+	.headerlink:hover{
+		text-decoration:underline;
 	}
 
 	#contact, #portfolio, #about,{
@@ -136,15 +140,24 @@ footer{
 		float:left;
 		font-family: Arial, Helvetica, sans-serif;
 		color:white;
+		height: 30px;
 		width:300px;
 		text-align:center;
-		height: 30px;
+		padding-top:15px;
 		background-color:#4aaaa5;
-		padding-top:10px;
 		bottom:30px;
 		left:50px;
 		position:absolute;
 		text-decoration:none;
+	}
+
+	.picLabel:hover {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		height: 47px;
+		width:300px;
+		border: 2px solid white; 
 	}
 
 /*Contact Page*/
