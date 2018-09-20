@@ -20,20 +20,21 @@
 	</header>	
 
 	<main class="clearfix">
+
 		<h2>Contact</h2>
+		
 			<div class="allforms" class="clearfix">
 				<form action="action_page.php">
 				  <label class="infopiece" for="fullname">Name</label>
-				  <input class="userinfo" type="text" id="fullname" name="fullname" placeholder=" John Doe...">
+				  <input class="userinfo" type="text" id="fullname" maxlength="40" name="fullname" placeholder=" John Doe...">
 
 				  <label class="infopiece" for="email">Email Address</label>
-				  <input class="userinfo" type="text" id="email" name="email" placeholder=" example@gmail.com">
+				  <input class="userinfo" type="email" id="email" name="email" placeholder=" example@gmail.com">
 			  
 				  <label class="infopiece" for="subject">Subject</label>
-				  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				  <textarea id="subject" name="subject" maxlength="250" placeholder="Write up to 250 character" style="height:200px"></textarea>
 			  
 				  <input id="finalbutton" type="submit" value="Submit">
-			  
 				</form>
 			  </div>
 
@@ -41,7 +42,7 @@
 
 	<!--Basic footnote section-->
 	<footer>
-		<p>Copyright</p>
+		<p>Copyright &copy</p>
 	</footer>	
 </body>
 </html>
