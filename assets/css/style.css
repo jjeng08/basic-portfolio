@@ -34,7 +34,7 @@ p{
 		padding:15px 20px 0px 20px;
 	}
 
-	a{
+	.headerlink{
 		background-color:#ffffff;
 		font-family: Arial, Helvetica, sans-serif;
 		color: #666666;
@@ -118,19 +118,18 @@ footer{
 /*Portfolio Page*/
 .portfoliobox{
 	float:left;
-	height:200px;
-	width:200px;
-	margin:20px 0px 20px 20px;
+	height:175px;
+	width:150px;
+	margin:20px 60px 40px 0px;
 	position:relative;
 }
 
-	.portfolioPic, .picLabel{
+	.portfolioPic{
 		height:175px;
 		width: 150px;
 	}
 
 	.portfolioPic{
-
 		margin-left:50px;
 		margin-bottom:40px;
 	}
@@ -139,13 +138,15 @@ footer{
 		float:left;
 		font-family: Arial, Helvetica, sans-serif;
 		color:white;
+		width:150px;
 		text-align:center;
 		height: 30px;
 		background-color:#4aaaa5;
 		padding-top:10px;
-		bottom:50px;
+		bottom:30px;
 		left:50px;
 		position:absolute;
+		text-decoration:none;
 	}
 
 /*Contact Page*/
